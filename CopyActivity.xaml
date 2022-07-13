@@ -8,6 +8,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
+<<<<<<< HEAD
   <sap:VirtualizedContainerService.HintSize>759.2,1414.4</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>CopyActivity_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
@@ -137,7 +138,6 @@
         </Sequence>
       </If.Else>
     </If>
-    <ui:GetValue ContinueOnError="{x:Null}" DisplayName="Get Text 'DIV'" sap:VirtualizedContainerService.HintSize="483.2,107.2" sap2010:WorkflowViewState.IdRef="GetValue_1">
       <ui:GetValue.Target>
         <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="34a56cf0-3b7c-4bc3-9299-debeca25e38a" InformativeScreenshot="c45f950dc4bd9c18942b776727caca98" Selector="[String.Format(&quot;&lt;html app='chrome.exe' title='*Oracle*' /&gt;&lt;webctrl innertext='*{0}*' /&gt;&lt;webctrl tag='DIV' aaname='*{1}*' /&gt;&quot;, input1, input2)]">
           <ui:Target.TimeoutMS>
@@ -153,7 +153,7 @@
       </ui:GetValue.Value>
     </ui:GetValue>
     <ui:Matches BuilderPattern="[A-Z]{2}\d+" sap:VirtualizedContainerService.HintSize="483.2,60" sap2010:WorkflowViewState.IdRef="Matches_1" Input="[copy_text]" IsBuilderTabModified="True" Model="[{&quot;Index&quot;:0,&quot;OperationID&quot;:&quot;ADV&quot;,&quot;OperationName&quot;:&quot;Advanced&quot;,&quot;OperationValue&quot;:&quot;[A-Z]{2}\\d+&quot;,&quot;QuantifierFirstValue&quot;:&quot;1&quot;,&quot;QuantifierID&quot;:&quot;EXT&quot;,&quot;QuantifierName&quot;:&quot;Exactly&quot;,&quot;QuantifierSecondValue&quot;:null}]" Pattern="[A-Z]{2}\d+" RegexOption="Compiled" Result="[copy]" />
-    <Assign sap:VirtualizedContainerService.HintSize="483.2,60" sap2010:WorkflowViewState.IdRef="Assign_4">
+    <ui:Matches BuilderPattern="[A-Z]{2}\d+" sap:VirtualizedContainerService.HintSize="484,59" sap2010:WorkflowViewState.IdRef="Matches_1" Input="[copy_text]" IsBuilderTabModified="True" Model="[{&quot;Index&quot;:0,&quot;OperationID&quot;:&quot;ADV&quot;,&quot;OperationName&quot;:&quot;Advanced&quot;,&quot;OperationValue&quot;:&quot;[A-Z]{2}\\d+&quot;,&quot;QuantifierFirstValue&quot;:&quot;1&quot;,&quot;QuantifierID&quot;:&quot;EXT&quot;,&quot;QuantifierName&quot;:&quot;Exactly&quot;,&quot;QuantifierSecondValue&quot;:null}]" Pattern="[A-Z]{2}\d+" RegexOption="Compiled" Result="[copy]" />
       <Assign.To>
         <OutArgument x:TypeArguments="x:String">[Copy_Value]</OutArgument>
       </Assign.To>
